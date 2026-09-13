@@ -1,0 +1,5 @@
+#12.control flow
+it is used to conclude when they run on varaibles and how many times it acn run on them
+if--> when teh condition is true
+if-else--> if 1 is true it will execute if not another one will execute
+else-if--> it is used when we have multiple conditions
