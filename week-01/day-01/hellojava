@@ -1,1 +1,22 @@
+def: java is a high level ,object oriented,class based language . basically it can access anywhere without depending on the os ,means one code any portable 
+portable sytem can access.
+java thinks like our code-->javac-->bytecode--> jvm-->os
+1.code
+#code
+public class main{
+public static void main(string [] args){
+system.out.println("hello world");
+}
+}
+#2.jdk,jre,jvm
+jvm: java virtual machine
+it is used to create environmnet that excutes the byte code 
+--> jre:java run time environment
+it is used to provide the environment to run the program or byte code
+-->jdk:java developmement kit
+it is used to develop ,run and excute the program 
+simply
+jrm-->run 
+jdk-->develop
+jvm-->execute
 
