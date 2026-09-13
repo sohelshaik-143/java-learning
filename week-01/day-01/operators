@@ -1,0 +1,25 @@
+#9.operators:
+it is used to make an operations on variables.
+arithmetic operators:
++,-,*,/,%
+code:
+int a =10;
+int b=19;
+sout(a+b);
+sout(a-b);
+sout(a%b);//it gives the remainder of teh problem
+}
+}
+#10.relational operators:
+>
+<
+>=
+<=
+==--> comparison 
+!=-->not equals to
+note:= means assignment
+== means comparison
+#11.logic operators:
+&& --> both conditions are true
+|| --> at least one condition is true
+! --> it reverses teh bolean //true--> false vicerversa
