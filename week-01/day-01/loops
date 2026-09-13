@@ -1,0 +1,17 @@
+#13.loops.
+for-->when we know the exact value of iterations
+while -->it depends on the condition
+do -while--> first body will execute at least once for do and then it will check
+break--> it exits the loop imediately
+continue--> skips the current iteration.
+#14.method.
+it is used to perform a specific task on the class
+ex:
+public int add(int a,int b){
+return a+b;
+}
+
+//calling
+int result=add(10,20);
+
+
