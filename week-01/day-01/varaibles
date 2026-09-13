@@ -1,0 +1,34 @@
+#3.
+structure of the progran
+public :anywhere it can access 
+main:  name of the class
+static :it is a method of that class which doesnt depend on the creation of object/independent of object creation.
+main:entry point or door of the program.
+string[] args: command line parameters .
+void :non return type value/it doesnt return the value.
+
+#4. variables:
+it is the place where we can hold or store somevalue in it .
+#5.datatypes:
+it is used to refer what type of data is this,why it should be used?
+-->it has 2 types
+1.primitive data types
+2.user defined data types
+-->primitive datatypes
+int -->for whole numbers
+char-->individual characters
+bool -->true /false
+long -->it usually refers to use if the int valu exceeds it can be used
+double-->it is used for decimal values as we use float as well
+#6. string
+it is a combination of characters
+==> it is not a primitive datatype bcoz it can vary .
+it is a class
+#7.declaration/intialisation 
+declaration == int age;just u want a value of integer type .
+intialisation:==int age=20; u already assigned the value for it.
+#8.final
+it can be used to doen't reassign the value anymore
+final double pi=3.14159;
+int pi=3.1432.//  not allowed.
+
