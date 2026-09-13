@@ -1,0 +1,15 @@
+#15.
+parameters and arguments.
+parameters:
+public int add(int a,int b);//parameters=a,b-->it is place holders
+//
+add(10,20); -->actual values =10,20
+
+#16.
+return type: it returs the value back to the caller
+void : it doesn't return the value back to the caller
+#17.big -O notations
+if we think once when the program will grow as input size increases that shows the big- O notations
+best-O(n) --> for one for loop 
+worst=O(n^2) --> in nested loop
+O(1)=consatnt time// best case
