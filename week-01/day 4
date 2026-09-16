@@ -1,0 +1,62 @@
+loop tracing here loop tracing is an objective which is used in pen and paper to trace teh value like 
+  if we see
+  for(int i=0;i<=3;i++){
+  for(int j=1;j<=i;j++){
+  }
+}
+means 
+  i =1;1<3;i++=2;
+i=2 ;i<=3;i=3
+  i=3;i<=3;i=4.
+    i=4;i<3 stoppp.
+      so thsi way we have to ensure and trace th value in pen and paper .
+
+      
+      #2.for vs while loop-->
+
+      
+      here for loop is used when we want repetions in particular scale or number.
+      here while loop is also used for repetion but it depends upon condition until its true .
+      both needed for repetitions but while is for condition based and for is used for particular iterartions
+
+
+      
+      #3.method decomposition:
+      
+      it is method where uses widely if in case think of it all the statements and methods are written in one main function if any one fails the entire
+      system will fail right.
+      and that is too complex to figure it out but if we use method decomposition means
+      sharing of responsibilties likeswise sharing of work 
+      academics-->1.passtudents
+                  2.failed students
+                  3.merit students ....etc
+      
+      #4. boolean methods:
+      it is an important concep which we use here if we want even numbers we generally use n%2==0 then it will give if it is true
+      even if not not even like wise if we want to check the number even or not without symbols we will write like this
+      if(iseven(n)){
+      sout("even");
+    }
+else{
+  sout(" not even");
+}
+we can use for multiple purpose 
+  iseven();
+  ispalndrome();
+isstring();
+..etc
+  
+
+
+
+#5.input validation:
+here i s the concept where when the code toks the input t doen't assue it is true before it will validate the input
+  here teh steps how it do 
+  1.taking input --> validate --> process --> output. // validaye means checking whether it is positve or negative or zero like wise 
+  #6.
+  big O notation here it isteh most important concept in entire dsa structure 
+  in yesterdaywe discused about hpe many loops are there that much of like if it has 2 loops then we decided that O(n^2) but it is wrong 
+  it depends on how many iterations are taking and how much the inputs are ok
+
+  i have learned thsi today this topics and i have done the palindrome as well i will share it in next content ok done signing off
+  
