@@ -19,3 +19,7 @@ class Main {
         
     }
 }
+
+/here it is simple approach i just solve the problems like this  has the one logic on that one logic we have to find it mate
+    approach like reversal of number approach as well but we add one extra is i statement if original == reversal then it is palindrome if not it is not
+     palindrome tahts it simple dsa question and its time complexity is  there is no n number iterations it would be probably O(n) 
