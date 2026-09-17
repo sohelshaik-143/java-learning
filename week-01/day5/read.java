@@ -26,3 +26,27 @@ class Main {
     }
 }
 
+here i have uses two condition s one is while number !=0 it is correct for all negative and positive numbers 
+    if we use numbers> 0 it is only uses for greater than 0 lie positive numbers ponly thats great what if i we do 
+    number <0 it is only for lessthan 0 numbers
+
+    // Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+    int  number=-157897;
+        int reverse=0;
+        int count =0;
+        while(number != 0 || number  <  0  ){
+            int last = number%10;
+            reverse= reverse*10+last;
+            count++;
+                  number = number /10;
+        }
+        
+  
+        System.out.println(count);
+    }
+}
+    
