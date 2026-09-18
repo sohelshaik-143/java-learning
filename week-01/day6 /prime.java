@@ -49,5 +49,108 @@ tracing if we take 17
     --> the above problem is the  dsa problem 
     
      
-  
+  problems reagarding that 
+    #1.. count of divisors
+    class solution{
+    public static void main(String[] args){
+        int n=18;
+        int result=countDivisors(n);
+        System.out.println(result);
+    }
 
+
+public static int countDivisors(int n) {
+    int count = 0;
+    
+    // Check numbers only up to the square root of n
+    for (int i = 1; i * i <= n; i++) {
+        if (n % i == 0) {
+            count++; // Found 'i'
+            
+            // If the partner (n/i) is different from 'i', count it too
+            if (i != n / i) {
+                count++; 
+            }
+        }
+    }
+    return count;
+}
+}
+
+
+#2. print divisors
+    
+class Solution {
+    public static void main(String[] args) {
+        int n = 100
+            ;
+        printDivisorsBasic(n);
+    }
+
+    public static void printDivisorsBasic(int n) {
+        // Start at 1 and go all the way up to n, step by step
+        for (int i = 1; i <= n; i++) {
+            // If i divides n perfectly, it's a divisor!
+            if (n % i == 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println(); // Just to print a clean new line at the end
+    }
+}
+honestly i have seen the cod ebut i know the intuttion how to build what cab we write but i think about how i get approach that mate and can we move to
+    to another problem 
+    #3 perfect number
+
+    class Solution {
+    public static void main(String[] args) {
+    
+          system.out.println(isperfect(12));
+    }
+
+    public static boolean isperfect(int n) {
+        if(<=1){
+        return false;
+        int sum=0;
+        // Start at 1 and go all the way up to n, step by step
+        for (int i = 1; i <= n; i++) {
+            // If i divides n perfectly, it's a divisor!
+            if (n % i == 0) {
+                sum+=i;
+            }
+        }
+    return sum==n;
+    }
+}
+
+
+#4 sum of the divisors
+    class Solution {
+    public static void main(String[] args) {
+        // This will print true for 6 (perfect) and false for 12 (not perfect)
+        System.out.println(isperfect(6)); 
+        System.out.println(isperfect(12));
+    }
+
+    public static boolean isperfect(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        
+        int sum = 0;
+        
+        // Loop stops BEFORE n (i < n) because a perfect number 
+        // excludes itself from the sum of its divisors.
+        for (int i = 1; i < n; i++) {
+            if (n % i == 0) {
+                sum += i;
+            }
+            if(n!=n/i){
+                sum+=n/m;
+            }
+        }
+        
+        // Returns true if the sum of divisors equals the original number
+       return sum;
+    }
+}
