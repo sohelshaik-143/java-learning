@@ -40,6 +40,14 @@ tracing if we take 17
     good question suppose we took the value of 18 tell me the factors 2*9,3*6,18*1,right afer 3*6 the things will repaet again in reverse order for 
     that we dont need to check so 3*6 repeatuing term so ,then we have to take that itration then only we checj sqrt(18) some value we oly check for that value only
     taht it is the code is optimised with that in mathematical terms we can change the i*i = i^2 == sqrt(n)......
+
+
+    # complexity 
+    worst case ==O(n)
+    best case == O(sqrt(n)) // approx
+    pace complexity == O(1) spaceeee
+    --> the above problem is the  dsa problem 
+    
      
   
 
