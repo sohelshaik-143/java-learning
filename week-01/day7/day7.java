@@ -56,6 +56,9 @@ fibonacci serieso f number sjust we have ot do that if we want the fbonnaci firs
 }
 }
 
+complexity analysis here we are runing the loop n times so teh time complexuity is O(n);
+space O(1);
+
   supported problems;
 
 
