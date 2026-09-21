@@ -26,6 +26,9 @@ class Main {
         }
     }
 
+complexity analysis here we have the the array and we traverse the array by arr.length times so it will be O(n)
+and space would be one return statemnt so O(1) times 
+
     return smallest;
 }
 }
