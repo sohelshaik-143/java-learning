@@ -1,0 +1,31 @@
+here today i have learn about first ste[pa bout arrays and how arrays are working internally and all
+                                        i learned today the what is class,object,methods in class,traversing of an array and 
+                                        indexing why it is started and all, and one more thin  today i have done teh dsa problem largest element in 
+                                        array 
+
+                                        code part 
+
+
+
+                                        // Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+
+class Main {
+    public static void main(String[] args) {
+       int [] arr={0,20,30,42,99898};
+        System.out.println(findsmallest(arr));
+    }
+    public static int findsmallest(int[] arr) {
+
+    int smallest = arr[0];
+
+    for (int i = 0; i < arr.length; i++) {
+
+        if (arr[i] < smallest) {
+            smallest = arr[i];
+        }
+    }
+
+    return smallest;
+}
+}
