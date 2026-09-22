@@ -110,4 +110,31 @@ class Main {
     }
 }
 
+#4.last occurrance 
 
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+
+  class Main {
+    public static void main(String[] args) {
+        int[] marks = {10, 28, 25, 65, 89, 10};
+        
+        // Pass the entire array to the method. 
+        // We don't wrap it in System.out.println because the method handles the printing itself.
+        int target=10;
+        su(marks,target); 
+    }
+    
+    public static int su(int[] marks,int target) {
+        for (int i = marks.length-1;i>=0; i--) {
+            if (marks[i]==target ) {
+                System.out.println(target  + "-->"+ "found"+ "-->"+ i);
+                return i;
+            }
+        }
+        // Removed "return 0;" because the method return type is void
+        return 0;
+    }
+}
+
+all of the problems has o(n) time complexity and O(1) spacee complexity 
