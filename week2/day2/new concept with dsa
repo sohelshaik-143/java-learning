@@ -81,3 +81,33 @@ class Main {
     }
 }
 
+#3.first occurance
+
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+
+class Main {
+    public static void main(String[] args) {
+        int[] marks = {10, 10, 10, 65, 89, 1};
+        int target = 10;
+        
+        // We catch the returned count and store it in a variable
+        int totalMatches = su(marks, target); 
+        System.out.println("Total times target appeared: " + totalMatches);
+    }
+    
+    public static int su(int[] marks, int target) {
+        int count = 0;
+        
+        for (int i = 0; i < marks.length; i++) {
+            if (marks[i] == target) {
+                count++; // Increment count when a match is found
+            }
+        }
+        
+        // Return the actual calculated count instead of -1
+        return count; 
+    }
+}
+
+
