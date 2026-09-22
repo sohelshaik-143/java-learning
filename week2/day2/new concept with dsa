@@ -24,3 +24,32 @@ here today i have learn about constructors and related stuff and now i have done
 
 here we have the compexity analysis means we are traversing this loop for n times it consists of space complexity by O(n) times and space will get 
 one return type so O(1) times
+
+supporting problems 
+
+
+#1.search and return bolean 
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+
+class Main {
+    public static void main(String[] args) {
+        int[] marks = {10, 28, 25, 65, 89, 10};
+        
+        // Pass the entire array to the method. 
+        // We don't wrap it in System.out.println because the method handles the printing itself.
+        int target=10;
+        su(marks,target); 
+    }
+    
+    public static boolean su(int[] marks,int target) {
+        for (int i = 0; i < marks.length; i++) {
+            if (marks[i]==target) {
+                System.out.println("true");
+            }
+        }
+        // Removed "return 0;" because the method return type is void
+        return false;
+    }
+}
+
