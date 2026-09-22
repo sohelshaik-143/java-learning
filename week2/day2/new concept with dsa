@@ -21,3 +21,6 @@ here today i have learn about constructors and related stuff and now i have done
         return 0;
     }
 }
+
+here we have the compexity analysis means we are traversing this loop for n times it consists of space complexity by O(n) times and space will get 
+one return type so O(1) times
