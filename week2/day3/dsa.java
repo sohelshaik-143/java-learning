@@ -109,3 +109,35 @@ class sol{
         return count;
     }
 }
+
+
+
+
+6. max and min in one traversal
+
+
+  package primenumbers;
+
+class sol{
+    public static void main(String[] args){
+        int [] arr={12,32,4,3,56,7,87,78};
+        large(arr);
+    }
+    public static void large(int[] arr){
+        int max=arr[0];
+        int min=arr[0];
+        for(int i=1;i<arr.length;i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+
+            } else if (arr[i] < min) {
+                min = arr[i];
+
+            }
+            
+        }
+
+        System.out.println("Maximum value: " + max); // Output: 87
+        System.out.println("Minimum value: " + min); // Output: 3
+    }
+}
