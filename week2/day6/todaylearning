@@ -1,0 +1,143 @@
+today we have learn about
+  1.what is overrding
+  2.where it will use 
+  3.how much important it is 
+  4.our project how can it consists of
+  5. we learn about polymorphism
+  6. runtime polymorphism 
+  7. overloading and overriding definations and intution 
+  8.dsa series of econd largest and third largest(own);
+
+overriding means we have an method in parent class same method that we have the child class as well on that child class compoletely replace the
+  parent class and whatever in the child clss example 
+
+  class Animal {
+
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+
+class Dog extends Animal {
+
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+here both have teh same method s but it will print only the dog barks why means it verrides teh parents classc ompletely
+
+  2.where it will use here we assume our project payments section the parent class have payments method and child class inherit the same method but 
+  individually like online payment we have payment method in parents aclass but in child class dsamemethod but with credit card means 
+  childclass inherits teh parents class and totally replace the child individuality in  parents class.
+  we will use that in ecommerce website payments section,
+  notification system and various forms.
+
+
+  3.how much importanyt it is it is very important bcoz it does a singke action in different forms like polymorphism
+  poly --> many
+  morph--> forms 
+  representing in many forms is called polymorphism 
+  here polymorphism and overriding is quite similar opics in it 
+
+
+  Imagine KASUMO has:
+
+User
+ ├── Student
+ ├── Recruiter
+ └── Admin
+
+Suppose every user has:
+
+void showDashboard()
+
+But the dashboard should be different.
+
+Student
+Student Dashboard
+- Skills
+- Evidence
+- Opportunities
+Recruiter
+Recruiter Dashboard
+- Opportunities
+- Candidates
+- Verification
+Admin
+Admin Dashboard
+- Users
+- Organizations
+- System management
+
+We can define a common method:
+
+class User {
+
+    void showDashboard() {
+        System.out.println("User dashboard");
+    }
+}
+
+Then override it:
+
+class Student extends User {
+
+    @Override
+    void showDashboard() {
+        System.out.println("Student dashboard");
+    }
+}
+class Recruiter extends User {
+
+    @Override
+    void showDashboard() {
+        System.out.println("Recruiter dashboard");
+    }
+}
+
+Now each object behaves according to its actual type.
+
+That's the foundation of polymorphism.
+
+  5. run time polymorphism it totally depends on the actual object where we hav ecreated yet 
+
+  her ewe have the example
+  class Animal {
+
+    void sound() {
+        System.out.println("Animal sound");
+    }
+}
+class Dog extends Animal {
+
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+Now:
+
+Animal a = new Dog();
+
+a.sound();
+
+
+output = dog barks
+  here dog is teh actual objeect and animal is refernce 
+  ..\
+
+
+
+  overloading and overriding 
+
+  overriding means same method different parameters(actions)
+
+  overloading is same class+different parameters
+
+  dsa series today we have learn about how to fing teh sond largest elemnt in the array and by my own i haev written the third largest elemnt as well
+  ....... thankyou
+  
